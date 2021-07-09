@@ -1,0 +1,45 @@
+.mainClass{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F5F5F5;
+  height: 100vh;
+  font-family: sans-serif;
+} 
+  .mainBox{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    width: 30%;
+  }
+    .divh1{
+      display: flex;
+      justify-content: center;
+    }
+    .divh1 h1{
+      font-size: 5vw;
+    }
+    .enterBox{
+      width: 100%;
+      height: 10vh;
+    }
+    .contentCards{
+
+    }
+      .card{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 6%;
+        
+      }
+        .task{
+          margin-left: 5%;
+        }
+    .cardButton{
+      display: flex;
+      justify-content: space-evenly;
+      background-color: white;
+      margin-top: 0%;
+      border-radius: 5px;
+    }
